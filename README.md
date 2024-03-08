@@ -13,6 +13,8 @@ docker compose up -d
 
 # FAQ
 ## How to run multiple version of PHP?
+> [!IMPORTANT]  
+> Make sure your php version is available in PHP Docker. You can check it [here](https://hub.docker.com/_/php).
 1. Copy folder and rename
 ```bash
 cp -r php-nginx-composer php74-nginx-composer

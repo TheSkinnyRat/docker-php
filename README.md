@@ -35,6 +35,8 @@ docker compose up -d
 ```
 
 ## How to add PHP Extension?
+> [!IMPORTANT]  
+> Make sure your extension is available in PHP. You can check it [here](https://pecl.php.net/).
 ### New Container
 1. Go to folder you want to run. For example:
 ```bash
@@ -61,6 +63,8 @@ docker-php-ext-install pdo_pgsql
 ```
 
 ## How to add Linux (Alpine) Package?
+> [!IMPORTANT]  
+> Make sure your package is available in Alpine. You can check it [here](https://pkgs.alpinelinux.org/packages).
 ### New Container
 1. Go to folder you want to run. For example:
 ```bash

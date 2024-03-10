@@ -59,7 +59,7 @@ docker compose up -d
 ### Existing Container
 1. Exec to exiting container
 ```bash
-docker exec -it php-php81 sh
+docker exec -it [container_name] sh
 ```
 2. Install your extension
 ```bash
@@ -87,7 +87,7 @@ docker compose up -d
 ### Existing Container
 1. Exec to exiting container
 ```bash
-docker exec -it php-php81 sh
+docker exec -it [container_name] sh
 ```
 2. Install your package
 ```bash

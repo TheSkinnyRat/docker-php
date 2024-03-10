@@ -10,6 +10,8 @@ cd php-nginx-composer
 ```bash
 docker compose up -d
 ```
+## How about the database?
+MariaDB in Docker is available in this repository: https://github.com/TheSkinnyRat/docker-mariadb
 
 # FAQ
 ## How to run multiple version of PHP?

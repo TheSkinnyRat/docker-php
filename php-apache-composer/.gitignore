@@ -1,2 +1,3 @@
 /sites/*
 !/sites/index.php
+.env
